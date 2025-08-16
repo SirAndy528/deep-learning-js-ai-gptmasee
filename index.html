@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Pembelajaran Deep Learning JS AIGPT AIMASEE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .ai-gradient {
+            background: linear-gradient(135deg, #e0f2fe 0%, #f3e5f5 100%);
+        }
+        
+        .circuit-pattern {
+            background-image: 
+                radial-gradient(circle at 25px 25px, rgba(102, 126, 234, 0.2) 2px, transparent 2px),
+                radial-gradient(circle at 75px 75px, rgba(118, 75, 162, 0.2) 2px, transparent 2px);
+            background-size: 100px 100px;
+        }
+        
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.2);
+        }
+        
+        .upload-zone {
+            border: 2px dashed #667eea;
+            transition: all 0.3s ease;
+            background-color: #f8fafc;
+        }
+        
+        .upload-zone:hover {
+            border-color: #764ba2;
+            background-color: rgba(102, 126, 234, 0.1);
+        }
+        
+        .ai-computer-bg {
+            background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="circuit" patternUnits="userSpaceOnUse" width="40" height="40"><path d="M0 20h40M20 0v40" stroke="%23667eea" stroke-width="0.5" opacity="0.3"/><circle cx="20" cy="20" r="2" fill="%23764ba2" opacity="0.4"/></pattern></defs><rect width="200" height="200" fill="url(%23circuit)"/></svg>');
+        }
+        
+
+        
+        .video-container {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen ai-computer-bg">
+    <!-- Header -->
+    <header class="ai-gradient circuit-pattern py-8">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <!-- AI Computer Graphics -->
+                <div class="flex justify-center items-center mb-6">
+                    <svg width="120" height="80" viewBox="0 0 120 80" class="mr-4">
+                        <!-- Computer Monitor -->
+                        <rect x="10" y="10" width="80" height="50" rx="4" fill="#667eea" stroke="#764ba2" stroke-width="2"/>
+                        <rect x="15" y="15" width="70" height="40" fill="#e0f2fe"/>
+                        <!-- AI Brain Pattern -->
+                        <circle cx="35" cy="30" r="8" fill="#764ba2" opacity="0.7"/>
+                        <circle cx="50" cy="35" r="6" fill="#667eea" opacity="0.8"/>
+                        <circle cx="65" cy="30" r="7" fill="#764ba2" opacity="0.6"/>
+                        <path d="M35 30 Q42 25 50 35 Q58 25 65 30" stroke="#667eea" stroke-width="2" fill="none"/>
+                        <!-- Computer Stand -->
+                        <rect x="45" y="60" width="10" height="8" fill="#764ba2"/>
+                        <rect x="35" y="68" width="30" height="4" rx="2" fill="#667eea"/>
+                        <!-- CPU -->
+                        <rect x="95" y="25" width="20" height="35" rx="2" fill="#764ba2"/>
+                        <rect x="98" y="28" width="14" height="6" fill="#667eea"/>
+                        <rect x="98" y="36" width="14" height="4" fill="#e0f2fe"/>
+                        <rect x="98" y="42" width="14" height="4" fill="#e0f2fe"/>
+                        <circle cx="105" cy="52" r="3" fill="#667eea"/>
+                    </svg>
+                    
+                    <div class="text-6xl mx-4">??</div>
+                    
+                    <svg width="100" height="80" viewBox="0 0 100 80" class="ml-4">
+                        <!-- Neural Network -->
+                        <circle cx="20" cy="20" r="6" fill="#667eea"/>
+                        <circle cx="20" cy="40" r="6" fill="#764ba2"/>
+                        <circle cx="20" cy="60" r="6" fill="#667eea"/>
+                        <circle cx="50" cy="30" r="6" fill="#764ba2"/>
+                        <circle cx="50" cy="50" r="6" fill="#667eea"/>
+                        <circle cx="80" cy="40" r="6" fill="#764ba2"/>
+                        <!-- Connections -->
+                        <line x1="26" y1="20" x2="44" y2="30" stroke="#667eea" stroke-width="2"/>
+                        <line x1="26" y1="40" x2="44" y2="30" stroke="#764ba2" stroke-width="2"/>
+                        <line x1="26" y1="40" x2="44" y2="50" stroke="#667eea" stroke-width="2"/>
+                        <line x1="26" y1="60" x2="44" y2="50" stroke="#764ba2" stroke-width="2"/>
+                        <line x1="56" y1="30" x2="74" y2="40" stroke="#667eea" stroke-width="2"/>
+                        <line x1="56" y1="50" x2="74" y2="40" stroke="#764ba2" stroke-width="2"/>
+                    </svg>
+                </div>
+                
+                <h1 class="text-4xl font-bold mb-4 glow-effect inline-block px-6 py-3 rounded-lg bg-white bg-opacity-80 text-gray-800">
+                    ?? Video Pembelajaran Deep Learning JS AIGPT AIMASEE
+                </h1>
+                <div class="mt-4 space-y-2 bg-white bg-opacity-70 rounded-lg p-4 inline-block">
+                    <p class="text-lg font-medium text-gray-800">Kelas XI IPS SMAS Permata Indah</p>
+                    <p class="text-base text-gray-700">Guru Informatika: <span class="font-semibold text-purple-700">Syaiful Akbar, ST</span> <span class="text-blue-600">&lt;Sir Andy&gt;</span></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        <!-- Video Upload Section -->
+        <div id="uploadSection" class="max-w-2xl mx-auto mb-12">
+            <div class="bg-white rounded-xl p-8 glow-effect shadow-lg">
+                <h2 class="text-2xl font-bold mb-6 text-center flex items-center justify-center text-gray-800">
+                    ?? Upload Video Pembelajaran Deep Learning
+                </h2>
+                <div class="upload-zone rounded-lg p-8 text-center mb-6">
+                    <input type="file" id="videoInput" accept="video/*" class="hidden" onchange="handleVideoUpload(event)">
+                    <div onclick="document.getElementById('videoInput').click()" class="cursor-pointer">
+                        <div class="text-6xl mb-4">??</div>
+                        <p class="text-xl font-semibold mb-2 text-gray-800">Klik untuk Upload Video</p>
+                        <p class="text-gray-600">Format: MP4, WebM, AVI (Max: 500MB)</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <input 
+                        type="text" 
+                        id="videoTitle" 
+                        placeholder="Judul video pembelajaran"
+                        class="flex-1 px-4 py-3 bg-gray-100 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 text-gray-800"
+                    >
+                    <button 
+                        onclick="publishVideo()" 
+                        id="publishBtn"
+                        class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg font-semibold transition-colors disabled:opacity-50 text-white"
+                        disabled
+                    >
+                        Publikasikan
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Display Section -->
+        <div id="videoSection" class="video-container max-w-4xl mx-auto">
+            <div class="bg-white rounded-xl p-8 glow-effect shadow-lg">
+                <h2 id="videoTitleDisplay" class="text-3xl font-bold mb-6 text-center text-blue-600"></h2>
+                
+                <div class="relative mb-6">
+                    <video 
+                        id="mainVideo" 
+                        controls 
+                        class="w-full rounded-lg shadow-2xl"
+                        style="max-height: 500px;"
+                    >
+                        Video Anda tidak didukung oleh browser ini.
+                    </video>
+                </div>
+
+                <!-- Video Info -->
+                <div class="bg-gray-100 rounded-lg p-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3 flex items-center text-gray-800">
+                                ?? Informasi Pembelajaran
+                            </h3>
+                            <ul class="space-y-2 text-gray-700">
+                                <li><strong>Mata Pelajaran:</strong> Informatika</li>
+                                <li><strong>Topik:</strong> Deep Learning JavaScript</li>
+                                <li><strong>Kelas:</strong> XI IPS</li>
+                                <li><strong>Sekolah:</strong> SMAS Permata Indah</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-3 flex items-center text-gray-800">
+                                ?? Tujuan Pembelajaran
+                            </h3>
+                            <ul class="space-y-2 text-gray-700">
+                                <li>• Memahami konsep Deep Learning</li>
+                                <li>• Implementasi AI dengan JavaScript</li>
+                                <li>• Penggunaan AIGPT dan AIMASEE</li>
+                                <li>• Praktik coding AI modern</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notes Section -->
+                <div class="mt-6 bg-blue-50 rounded-lg p-6">
+                    <h3 class="text-lg font-semibold mb-3 flex items-center text-gray-800">
+                        ?? Catatan Penting
+                    </h3>
+                    <textarea 
+                        id="studentNotes"
+                        placeholder="Tulis catatan Anda di sini..."
+                        class="w-full h-32 px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 text-gray-800 resize-none"
+                    ></textarea>
+                    <button 
+                        onclick="saveNotes()"
+                        class="mt-3 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg font-medium transition-colors text-white"
+                    >
+                        Simpan Catatan
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Embedded Video Player Section -->
+        <div id="embeddedVideoSection" class="max-w-4xl mx-auto mb-12">
+            <div class="bg-white rounded-xl p-8 glow-effect shadow-lg">
+                <h2 class="text-3xl font-bold mb-6 text-center text-blue-600">
+                    ?? Video 1 - Pengenalan AI & Deep Learning
+                </h2>
+                
+                <div class="relative mb-6">
+                    <video 
+                        controls 
+                        class="w-full rounded-lg shadow-2xl"
+                        style="height: 500px;"
+                        preload="metadata">
+                        <source src="https://www.dropbox.com/scl/fi/vptjjzdbium5e0yed8wys/1.mp4?rlkey=06rojvjihmm8sguw12lhbgoqk&st=uxx0iztb&dl=1" type="video/mp4">
+                        Browser Anda tidak mendukung video HTML5.
+                    </video>
+                </div>
+
+                <!-- Video Information -->
+                <div class="bg-blue-50 rounded-lg p-6 mb-6">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center text-gray-800">
+                        ?? Informasi Video Pembelajaran
+                    </h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mb-4">
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2">?? Daftar Video Tersedia:</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>• Video 1: Pengenalan AI & Deep Learning</li>
+                                <li>• Video 2: Neural Networks</li>
+                                <li>• Video 3: Deep Learning Basics</li>
+                                <li>• Video 4: JavaScript AI</li>
+                                <li>• Video 5: TensorFlow.js</li>
+                                <li>• Video 6: Data Processing</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-2">?? Video Lanjutan:</h4>
+                            <ul class="text-sm text-gray-700 space-y-1">
+                                <li>• Video 7: Model Training</li>
+                                <li>• Video 8: Deployment</li>
+                                <li>• Video 9: Computer Vision</li>
+                                <li>• Video 10: AIMASEE Platform</li>
+                                <li>• Video 11: Project Final</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-lg p-4 mb-4">
+                        <h4 class="font-semibold text-gray-800 mb-2">?? Link Video Dropbox:</h4>
+                        <div class="text-xs text-gray-600 space-y-1">
+                            <p><strong>Video 1:</strong> https://www.dropbox.com/scl/fi/vptjjzdbium5e0yed8wys/1.mp4</p>
+                            <p><strong>Video 2:</strong> https://www.dropbox.com/scl/fi/tj2f7o82a88b93011jg6b/2.mp4</p>
+                            <p><strong>Video 3:</strong> https://www.dropbox.com/scl/fi/jidosul5dq4moatsj5qr3/3.mp4</p>
+                            <p><strong>Video 4:</strong> https://www.dropbox.com/scl/fi/zc8hyonqj0jtsnolmh51h/4.mp4</p>
+                            <p><strong>Video 5:</strong> https://www.dropbox.com/scl/fi/5cy90wpz24le9lmgir03h/5.mp4</p>
+                            <p><strong>Video 6:</strong> https://www.dropbox.com/scl/fi/ddk1450fxw95ft3h6s2np/6.mp4</p>
+                            <p><strong>Video 7:</strong> https://www.dropbox.com/scl/fi/3do351lovbl9prswlw325/7.mp4</p>
+                            <p><strong>Video 8:</strong> https://www.dropbox.com/scl/fi/ly0k8yy5w7qg1c2ylcr0v/8.mp4</p>
+                            <p><strong>Video 9:</strong> https://www.dropbox.com/scl/fi/058rh326p9wowf8u18np1/9.mp4</p>
+                            <p><strong>Video 10:</strong> https://www.dropbox.com/scl/fi/e0d0vl6ag78zndnrrpt37/aimassee10.mp4</p>
+                            <p><strong>Video 11:</strong> https://www.dropbox.com/scl/fi/e0d0vl6ag78zndnrrpt37/aimassee10.mp4</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-3">
+                        <strong>Video 1 - Pengenalan AI & Deep Learning:</strong> Video pengenalan tentang Artificial Intelligence dan Deep Learning. 
+                        Materi mencakup konsep dasar AI, perbedaan Machine Learning dan Deep Learning, serta aplikasi praktis dalam kehidupan sehari-hari.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">AI Basics</span>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Deep Learning</span>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                        <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm">11 Video Series</span>
+                    </div>
+                </div>
+
+                <!-- Video Controls -->
+                <div class="flex justify-center gap-4 mb-6">
+                    <button onclick="showPlaylist()" class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                        ?? Lihat Semua Video
+                    </button>
+                    <button onclick="toggleNotes()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                        ?? Buat Catatan
+                    </button>
+                </div>
+
+                <!-- Notes Section (Hidden by default) -->
+                <div id="notesSection" class="bg-gray-50 rounded-lg p-6" style="display: none;">
+                    <h3 class="text-lg font-semibold mb-3 flex items-center text-gray-800">
+                        ?? Catatan Video 1
+                    </h3>
+                    <textarea 
+                        id="video1Notes"
+                        placeholder="Tulis catatan Anda untuk Video 1 - Pengenalan AI..."
+                        class="w-full h-32 px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 text-gray-800 resize-none"
+                    ></textarea>
+                    <button 
+                        onclick="saveVideo1Notes()"
+                        class="mt-3 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg font-medium transition-colors text-white"
+                    >
+                        Simpan Catatan
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video Playlist Section -->
+        <div id="playlistSection" class="max-w-5xl mx-auto mb-12" style="display: none;">
+            <div class="bg-white rounded-xl p-8 glow-effect shadow-lg">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-3xl font-bold text-gray-800 flex items-center">
+                        ?? Daftar Video Pembelajaran Deep Learning
+                    </h2>
+                    <button onclick="hidePlaylist()" class="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                        ? Kembali ke Video
+                    </button>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 border border-blue-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 1 - Pengenalan AI</h3>
+                        <p class="text-sm text-gray-600 mb-3">Dasar-dasar Artificial Intelligence dan Machine Learning</p>
+                        <a href="https://www.dropbox.com/scl/fi/vptjjzdbium5e0yed8wys/1.mp4?rlkey=06rojvjihmm8sguw12lhbgoqk&st=uxx0iztb&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-6 border border-purple-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 2 - Neural Networks</h3>
+                        <p class="text-sm text-gray-600 mb-3">Memahami struktur dan cara kerja Neural Networks</p>
+                        <a href="https://www.dropbox.com/scl/fi/tj2f7o82a88b93011jg6b/2.mp4?rlkey=z08hzg0i6vbggi7t8542qdij4&st=etm7eoug&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 border border-green-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">?</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 3 - Deep Learning Basics</h3>
+                        <p class="text-sm text-gray-600 mb-3">Konsep fundamental Deep Learning dan aplikasinya</p>
+                        <a href="https://www.dropbox.com/scl/fi/jidosul5dq4moatsj5qr3/3.mp4?rlkey=h5mrt5nvdi0zcm2dzi5vw50gh&st=cd5zdep6&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-6 border border-orange-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 4 - JavaScript AI</h3>
+                        <p class="text-sm text-gray-600 mb-3">Implementasi AI menggunakan JavaScript modern</p>
+                        <a href="https://www.dropbox.com/scl/fi/zc8hyonqj0jtsnolmh51h/4.mp4?rlkey=op6wi4qc3vnol7ghlc5djjw69&st=0x58o4q9&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-6 border border-red-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 5 - TensorFlow.js</h3>
+                        <p class="text-sm text-gray-600 mb-3">Menggunakan TensorFlow.js untuk web development</p>
+                        <a href="https://www.dropbox.com/scl/fi/5cy90wpz24le9lmgir03h/5.mp4?rlkey=fomw536qxlftt1fiqugyhgs8x&st=m7ky6ath&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg p-6 border border-indigo-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 6 - Data Processing</h3>
+                        <p class="text-sm text-gray-600 mb-3">Teknik preprocessing dan manipulasi data untuk AI</p>
+                        <a href="https://www.dropbox.com/scl/fi/ddk1450fxw95ft3h6s2np/6.mp4?rlkey=l0wd2qvoyf0vvvr10u8fhieof&st=hbcw1ahl&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-6 border border-pink-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 7 - Model Training</h3>
+                        <p class="text-sm text-gray-600 mb-3">Cara melatih model AI dan optimasi performa</p>
+                        <a href="https://www.dropbox.com/scl/fi/3do351lovbl9prswlw325/7.mp4?rlkey=rj4pf94dlfrfs1dgoae81m9fj&st=0ljzt4zw&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg p-6 border border-teal-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 8 - Deployment</h3>
+                        <p class="text-sm text-gray-600 mb-3">Deploy model AI ke production dan web apps</p>
+                        <a href="https://www.dropbox.com/scl/fi/ly0k8yy5w7qg1c2ylcr0v/8.mp4?rlkey=x4hyiveyy01ppx9aewfcgsfmm&st=j8vxa0tt&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-6 border border-yellow-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 9 - Computer Vision</h3>
+                        <p class="text-sm text-gray-600 mb-3">Pengenalan gambar dan computer vision dengan JS</p>
+                        <a href="https://www.dropbox.com/scl/fi/058rh326p9wowf8u18np1/9.mp4?rlkey=07z0m8q0r20k97y9rixjo0weh&st=x4sejinn&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-cyan-50 to-cyan-100 rounded-lg p-6 border border-cyan-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 10 - AIMASEE Platform</h3>
+                        <p class="text-sm text-gray-600 mb-3">Menggunakan platform AIMASEE untuk pembelajaran AI</p>
+                        <a href="https://www.dropbox.com/scl/fi/e0d0vl6ag78zndnrrpt37/aimassee10.mp4?rlkey=hzivk5ha6wobyl3kvnhs51ij6&st=sobrcxy6&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-violet-50 to-violet-100 rounded-lg p-6 border border-violet-200 hover:shadow-lg transition-shadow">
+                        <div class="text-3xl mb-3 text-center">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Video 11 - Project Final</h3>
+                        <p class="text-sm text-gray-600 mb-3">Membuat project AI lengkap dari awal hingga selesai</p>
+                        <a href="https://www.dropbox.com/scl/fi/e0d0vl6ag78zndnrrpt37/aimassee10.mp4?rlkey=hzivk5ha6wobyl3kvnhs51ij6&st=sobrcxy6&dl=0" 
+                           target="_blank" 
+                           class="inline-block bg-violet-600 hover:bg-violet-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                            Tonton Video
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Welcome Message for Students -->
+        <div id="welcomeSection" class="max-w-3xl mx-auto text-center">
+            <div class="bg-white rounded-xl p-8 glow-effect shadow-lg">
+                <div class="text-6xl mb-6">??</div>
+                <h2 class="text-3xl font-bold mb-4 text-gray-800">Selamat Datang di Pembelajaran AI!</h2>
+                <p class="text-xl text-gray-600 mb-6">
+                    Platform pembelajaran Deep Learning JavaScript dengan teknologi AIGPT dan AIMASEE
+                </p>
+                <div class="grid md:grid-cols-3 gap-6 mt-8">
+                    <div class="bg-blue-50 rounded-lg p-6 border border-blue-200">
+                        <div class="text-3xl mb-3">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Deep Learning</h3>
+                        <p class="text-sm text-gray-600">Pelajari konsep AI modern</p>
+                    </div>
+                    <div class="bg-purple-50 rounded-lg p-6 border border-purple-200">
+                        <div class="text-3xl mb-3">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">JavaScript AI</h3>
+                        <p class="text-sm text-gray-600">Implementasi praktis</p>
+                    </div>
+                    <div class="bg-green-50 rounded-lg p-6 border border-green-200">
+                        <div class="text-3xl mb-3">??</div>
+                        <h3 class="font-semibold mb-2 text-gray-800">Pembelajaran</h3>
+                        <p class="text-sm text-gray-600">Materi berkualitas tinggi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="ai-gradient circuit-pattern py-8 mt-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="bg-white bg-opacity-80 rounded-lg p-4 inline-block">
+                <p class="text-lg font-medium text-gray-800">© 2024 SMAS Permata Indah - Pembelajaran Informatika</p>
+                <p class="text-sm text-gray-600 mt-2">Dikembangkan untuk kemajuan pendidikan AI di Indonesia ????</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let videoUploaded = false;
+
+        function handleVideoUpload(event) {
+            const file = event.target.files[0];
+            if (file) {
+                if (file.size > 500 * 1024 * 1024) { // 500MB limit
+                    alert('Ukuran file terlalu besar! Maksimal 500MB.');
+                    return;
+                }
+                
+                const videoTitle = document.getElementById('videoTitle');
+                if (!videoTitle.value) {
+                    videoTitle.value = file.name.replace(/\.[^/.]+$/, "");
+                }
+                
+                document.getElementById('publishBtn').disabled = false;
+                alert('Video berhasil dipilih! Silakan masukkan judul dan klik Publikasikan.');
+            }
+        }
+
+        function publishVideo() {
+            const fileInput = document.getElementById('videoInput');
+            const titleInput = document.getElementById('videoTitle');
+            
+            if (!fileInput.files[0] || !titleInput.value) {
+                alert('Silakan pilih video dan masukkan judul terlebih dahulu!');
+                return;
+            }
+
+            if (videoUploaded) {
+                alert('Video sudah pernah diupload! Hanya bisa upload 1 kali saja.');
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const title = titleInput.value;
+            
+            // Create video URL
+            const videoURL = URL.createObjectURL(file);
+            
+            // Display video
+            document.getElementById('videoTitleDisplay').textContent = title;
+            document.getElementById('mainVideo').src = videoURL;
+            
+            // Show video section and hide upload panel
+            document.getElementById('videoSection').style.display = 'block';
+            document.getElementById('uploadSection').style.display = 'none';
+            document.getElementById('welcomeSection').style.display = 'none';
+            
+            videoUploaded = true;
+            
+            alert('Video berhasil dipublikasikan! Siswa sekarang dapat menonton video pembelajaran.');
+        }
+
+        function saveNotes() {
+            const notes = document.getElementById('studentNotes').value;
+            if (notes.trim()) {
+                localStorage.setItem('learningNotes', notes);
+                alert('Catatan berhasil disimpan! ??');
+            } else {
+                alert('Silakan tulis catatan terlebih dahulu.');
+            }
+        }
+
+        // Load saved notes on page load
+        window.onload = function() {
+            const savedNotes = localStorage.getItem('learningNotes');
+            if (savedNotes) {
+                document.getElementById('studentNotes').value = savedNotes;
+            }
+            
+            const savedVideo1Notes = localStorage.getItem('video1Notes');
+            if (savedVideo1Notes) {
+                document.getElementById('video1Notes').value = savedVideo1Notes;
+            }
+        }
+
+        // Navigation functions for video playlist
+        function showPlaylist() {
+            document.getElementById('embeddedVideoSection').style.display = 'none';
+            document.getElementById('playlistSection').style.display = 'block';
+            document.getElementById('uploadSection').style.display = 'none';
+            document.getElementById('welcomeSection').style.display = 'none';
+        }
+
+        function hidePlaylist() {
+            document.getElementById('embeddedVideoSection').style.display = 'block';
+            document.getElementById('playlistSection').style.display = 'none';
+            document.getElementById('uploadSection').style.display = 'none';
+            document.getElementById('welcomeSection').style.display = 'none';
+        }
+
+        function toggleNotes() {
+            const notesSection = document.getElementById('notesSection');
+            if (notesSection.style.display === 'none') {
+                notesSection.style.display = 'block';
+            } else {
+                notesSection.style.display = 'none';
+            }
+        }
+
+        function saveVideo1Notes() {
+            const notes = document.getElementById('video1Notes').value;
+            if (notes.trim()) {
+                localStorage.setItem('video1Notes', notes);
+                alert('Catatan Video 1 berhasil disimpan! ??');
+            } else {
+                alert('Silakan tulis catatan terlebih dahulu.');
+            }
+        }
+
+        // Prevent right-click on video (basic protection)
+        document.addEventListener('contextmenu', function(e) {
+            if (e.target.tagName === 'VIDEO' || e.target.tagName === 'IFRAME') {
+                e.preventDefault();
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96ffbeb686aafd6d',t:'MTc1NTMzNDg2NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
